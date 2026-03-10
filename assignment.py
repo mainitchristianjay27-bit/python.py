@@ -1,6 +1,3 @@
-import os
-os.system("cls")
-
 score = 100
 
 if score >= 75:

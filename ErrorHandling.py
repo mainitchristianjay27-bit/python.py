@@ -2,7 +2,7 @@ import os
 os.system("cls")
 
 def withdrawal():
-    balance = 1000
+    balance = 5000
 
     while True:
         print("\n--- Simple Money Withdrawal System ---")

@@ -123,12 +123,11 @@ def main():
             dll.display_backward()
         
         elif choice == "6":
-            print("Thank you! Program ended. Good luck in lab!")
+            print("Thank you! Program ended.")
             break
         
         else:
             print("Invalid choice! Please enter 1-6.")
-
 
 if __name__ == "__main__":
     main()

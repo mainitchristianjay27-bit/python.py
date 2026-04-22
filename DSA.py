@@ -86,14 +86,12 @@ def main():
     print("Group Activity!\n")
     
     while True:
-        print("\n" + "="*50)
         print("1. Insert at Beginning")
         print("2. Insert at End")
         print("3. Delete a value")
         print("4. Display Forward (Head → Tail)")
         print("5. Display Backward (Tail → Head)")
         print("6. Exit")
-        print("="*50)
         
         choice = input("\nEnter your choice (1-6): ").strip()
         
@@ -108,11 +106,11 @@ def main():
             print(f"'{data}' inserted at the end.")
         
         elif choice == "3":
-            key = input("Enter value to delete: ")
-            if dll.delete(key):
-                print(f"'{key}' was deleted.")
+            data = input("Enter value to delete: ")
+            if dll.delete(data):
+                print(f"'{data}' was deleted.")
             else:
-                print(f"'{key}' not found in the list.")
+                print(f"'{data}' not found in the list.")
         
         elif choice == "4":
             print(" List (Forward):")
@@ -125,7 +123,6 @@ def main():
         elif choice == "6":
             print("Thank you! Program ended.")
             break
-        
         else:
             print("Invalid choice! Please enter 1-6.")
 
